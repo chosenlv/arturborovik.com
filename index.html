@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Artur Borovik - Curriculum Vitae</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="icon" href="https://c1.staticflickr.com/5/4282/34743905683_466e33686b_o.png" type="image/png" sizes="16x16">
+
+<style type="text/css">
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	margin: 0px;
+  padding: 0px;
+	/*background-color: #182430;*/ /* Dark bluish background color */
+	background-color: #ffffff; /* White background color */
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+
+p, ul {
+	font-size: 18px;
+	line-height: 32px;
+	color: #626c84;
+}
+
+p.w800 {
+	max-width: 800px;
+}
+
+p.w540 {
+	max-width: 540px;
+}
+
+h1 {
+	color: #1e83ec;
+	font-size: 82px;
+	letter-spacing: -1px;
+	line-height: 82px;
+}
+
+h2 {
+	color: #1e83ec;
+	font-size: 36px;
+	line-height: 48px;
+	padding-top: 40px;
+}
+
+h3 {
+	color: #1e83ec;
+	font-size: 21px;
+	line-height: 28px;
+	margin-top: 16px;
+}
+
+h3.alt {
+	text-transform: uppercase;
+}
+
+h6 {
+	color: #252a37;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	line-height: 200%;
+}
+
+h6.alt {
+	margin: 24px;
+	text-align: center;
+}
+
+a, a:visited {
+	color: #626c84;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #1e83ec;
+	text-decoration: none;
+}
+
+button {
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-family: 'Fira Sans', sans-serif;
+	margin-left: 24px;
+	margin-bottom: 24px;
+	padding: 16px 32px;
+	color: #ffffff;
+	background-color: #1e83ec;
+	border: none;
+	border-radius: 24px;
+	transition: 0.5s;
+}
+
+button:hover {
+	background-color: #626c84;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+ul#menu li {
+  display:inline;
+	margin-right: 16px;
+}
+
+/* Setting up our grid */
+.container {
+	margin-top: 40px;
+	margin-bottom: 100px;
+	max-width: 960px; /*Set the width of the entire website here */
+	margin-right: auto;
+	margin-left: auto; /* Margin-left and right are set to auto to center the container */
+	object-fit: cover;
+}
+
+.seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child {
+	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
+}
+
+.eleven {
+	width: 91.66%;
+	float: left;
+	margin-left: 0;
+}
+
+.ten {
+	width: 83.33%;
+	float: left;
+	margin-left: 0;
+}
+
+.nine {
+	width: 75%;
+	float: left;
+	margin-left: 0;
+}
+
+.eight {
+	width: 66.66%;
+	float: left;
+	margin-left: 0;
+	margin-bottom: -4px;
+}
+
+.seven {
+	width: 58.33%;
+	float: left;
+	margin-left: 0;
+}
+
+.six {
+	width: 50%; /* This div spans six columns (the entire row)*/
+	float: left;
+	margin-left: 0;
+}
+
+.five {
+	width: 41.66%; /* This div spans five columns */
+	float:left;
+	margin-left: 0;
+}
+
+.four {
+	width: 33.33%;
+	float:left;
+	margin-left: 0;
+}
+
+.three {
+	width: 25%;
+	float:left;
+	margin-left: 0;
+}
+
+.two {
+	width: 16.66%;
+	float:left;
+	margin-left: 0;
+
+}
+
+.one {
+	width: 8.33%;
+	float:left;
+	margin-left: 0;
+}
+
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0;
+	-webkit-box-shadow: 0 2px 30px 0 #e0e5f0;
+	-moz-box-shadow: 0 2px 30px 0 #e0e5f0;
+	box-shadow: 0 2px 30px 0 #e0e5f0;
+}
+
+.row-margin {
+	margin-bottom: 80px;
+}
+
+div.hero {
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.eight img.wide {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+.eight img.tall {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+}​
+
+.tablink {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 0px -3px 0px #626c84 inset;
+}
+
+.tablink:hover {
+	background-color: #f9f9f9;
+	box-shadow: 0px -3px 0px #1e83ec inset;
+}
+
+.serviceActive {
+	box-shadow: 0px -3px 0px #1e83ec inset;
+}
+
+.serviceInfo {
+	background-color: none;
+}
+
+.service {
+	padding-top: 16px;
+	padding-bottom: 64px;
+	margin-left: 64px;
+	margin-right: 64px;
+}
+
+/* footer style stars */
+
+footer {
+	width: 100%;
+	height: 102px;
+	background-color: #1e83ec;
+	bottom: 0;
+}
+
+footer p {
+	line-height: 102px;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+footer div {
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+span.left {
+	float:left;
+}
+
+span.right {
+	float:right;
+}
+
+a.footer, a.footer:visited {
+	color: #ffffff
+}
+
+a.footer:active, a.footer:hover {
+	text-decoration: underline;
+}
+
+/* footer style ends */
+
+</style>
+
+</head>
+
+<body name="top">
+
+	<div class="container"><!-- everything on the page -->
+
+	<div class="hero">
+		<img src="https://static.tumblr.com/unwcgwb/RrKp5p6v3/34743905683_466e33686b_o.png" alt="profile-img">
+		<h3>Artur Borovik - Curriculum Vitae</h3>
+		<h6 style="color: #626c84">3D, Web design, Graphic design</h6>
+	</div>
+
+	<div id="" class="row"><!-- tab titles -->
+
+			<div class="six tablink serviceActive" onclick="openService(event,'service-one')">
+				<h6 class="alt">English</h6>
+			</div><!-- closing col 1 -->
+
+			<div class="six tablink" onclick="openService(event,'service-two')">
+				<h6 class="alt">Latviešu</h6>
+			</div><!-- closing col 2 -->
+
+	</div><!-- closing row 3 -->
+
+	<div class="row"><!-- tab content -->
+
+			<div  class="serviceInfo">
+			<div id="bg-1">
+			<div id="service-one" class="service">
+
+				<div class="">
+					<h2>About</h2>
+					<p class="w800">My name is Artur Borovik, I'm computer graphics artist and designer specialized on automotive and hard surface 3D modeling, visualization and graphics design. Founder of Vectorilicious, LLC.</p>
+				</div>
+
+				<div class="">
+					<h2>Experience</h2>
+					<p class="w800">Was working as freelancer since 2007, had a lot of interesting projects and collaborations: Daugavpils theatre, DoO's annual project "Days of Opportunities" (SSE Riga), The Jewish Agency for Israel and Migrash Baltics, and a lot of projects for private clients.</p>
+					<h3>March, 2015 - March, 2016</h3>
+					<p>Autosport Corporation - 3D artist and graphic designer</p>
+					<h3>August, 2016 - October, 2018</h3>
+					<p>Vectorilicious - Lead designer (personal project)</p>
+					<h3>October, 2016 - November, 2018</h3>
+					<p>Amparo - Web and graphic designer</p>
+				</div>
+
+				<div class="">
+					<h2>Skills</h2>
+					<h3>2D Graphics</h3>
+					<p class="w540">Sketch, Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Lightroom, Adobe After Effects, Corel Draw</p>
+					<h3>3D Graphics</h3>
+					<p>Autodeskt 3ds Max, Blender, Corona Renderer, V-Ray, KeyShot</p>
+					<h3>Additional</h3>
+					<p>HTML, CSS, SolidWorks</p>
+					<h3>Languages</h3>
+					<p>Latvian, English, Russian</p>
+				</div>
+
+				<div class="">
+					<h2>Education</h2>
+					<h3>2010 - 2015</h3>
+					<p>Baltic International Academy - Digital Visualization</p>
+					<h3>1995 - 2007</h3>
+					<p>Daugavpils State Gymnasium</p>
+				</div>
+
+				<div class="">
+					<h2>Contacts</h2>
+					<p><b style="color:#1e83ec">Email:</b> <a target="_blank" href="mailto:arturs.boroviks@gmail.com">arturs.boroviks@gmail.com</a></p>
+					<p><b style="color:#1e83ec">Location:</b> Riga, Latvia</p>
+				</div>
+
+				<div class="">
+					<h2>Links</h2>
+					<ul id="menu">
+  					<li><a target="_blank" href="http://www.boro.work/">Portfolio</a></li>
+  					<li><a target="_blank" href="https://www.linkedin.com/in/arturborovik/">LinkedIn</a></li>
+						<li><a target="_blank" href="https://www.facebook.com/arturborovik/">Facebook</a></li>
+  					<li><a target="_blank" href="https://www.behance.net/borodesign">Behance</a></li>
+					</ul>
+				</div>
+
+			</div><!-- closing service 1 -->
+			</div><!-- closing bg-1 -->
+
+			<div id="bg-1">
+			<div id="service-two" class="service" style="display:none">
+
+			<div class="">
+				<h2>Par mani</h2>
+				<p class="w800">Mani sauc Artūrs Boroviks - datorgrafiķis, dizaineris. Specializējos uz mototransporta un objektu 3D modelēšanas un vizualizācijas, kā arī grafiskā dizainā. Šobrīd dzīvoju un strādāju Rīgā, Latvijā.</p>
+			</div>
+
+			<div class="">
+				<h2>Pieredze</h2>
+				<p class="w800">Strādāju kā brīvmākslinieks kopš 2007. gada, sadarbojos ar daudziem interesantiem projektiem: Daugavpils teātris, DoO ikgadējs projekts "Days of Opportunities", The Jewish Agency for Israel un Migrash Baltics, un daudzi citi.</p>
+				<h3>Marts, 2015 - Marts, 2016</h3>
+				<p>Autosport Corporation - 3D mākslinieks un grafiskais dizaineris</p>
+				<h3>Augusts, 2016 - Oktobris, 2018</h3>
+				<p>Vectorilicious - Vadošais dizaineris (personīgais projekts)</p>
+				<h3>Oktobris, 2016 - Novembris, 2018</h3>
+				<p>Amparo - Web un grafiskais dizaineris</p>
+			</div>
+
+			<div class="">
+				<h2>Prasmes</h2>
+				<h3>2D Grafika</h3>
+				<p class="w540">Sketch, Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Lightroom, Adobe After Effects, Corel Draw</p>
+				<h3>3D Grafika</h3>
+				<p>Autodeskt 3ds Max, Blender, Corona Renderer, V-Ray, KeyShot</p>
+				<h3>Papildus</h3>
+				<p>HTML, CSS, SolidWorks</p>
+				<h3>Valodu prasmes</h3>
+				<p>Latviešu, Angļu, Krievu</p>
+			</div>
+
+			<div class="">
+				<h2>Izglītība</h2>
+				<h3>2010 - 2015</h3>
+				<p>Baltijas starptautiskā Akadēmija - Datordizains</p>
+				<h3>1995 - 2007</h3>
+				<p>Daugavpils Valsts Ģimnāzija</p>
+			</div>
+
+			<div class="">
+				<h2>Kontakti</h2>
+				<p><b style="color:#1e83ec">E-pasts:</b> <a target="_blank" href="mailto:arturs.boroviks@gmail.com">arturs.boroviks@gmail.com</a></p>
+				<p><b style="color:#1e83ec">Lokācija:</b> Rīga, Latvija</p>
+			</div>
+
+			<div class="">
+				<h2>Saites</h2>
+				<ul id="menu">
+					<li><a target="_blank" href="http://www.boro.work/">Portfolio</a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/arturborovik/">LinkedIn</a></li>
+					<li><a target="_blank" href="https://www.facebook.com/arturborovik/">Facebook</a></li>
+					<li><a target="_blank" href="https://www.behance.net/borodesign">Behance</a></li>
+				</ul>
+			</div>
+
+			</div><!-- closing service 2 -->
+			</div><!-- closing bg-2 -->
+
+			</div><!-- closing row 4 -->
+
+			<div class="row">
+			</div><!-- closing row 5 -->
+
+	</div><!-- closing serviceInfo -->
+
+	</div><!-- closing container div -->
+
+	<footer>
+
+		<div>
+			<p><span class="left">Copyright © 2020 Artur Borovik</span><span class="right"><a href="#top" class="footer">Back to top</a></span></p>
+		</div>
+
+	</footer>
+
+	<script>
+		function openService(evt, serviceName) {
+				var i;
+				var x = document.getElementsByClassName("service");
+				for (i = 0; i < x.length; i++) {
+					 x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" serviceActive", "");
+  }
+  document.getElementById(serviceName).style.display = "block";
+  evt.currentTarget.className += " serviceActive";
+}
+
+$(function() {
+  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+});
+
+$(window).load(function(){
+ $('.eight').find('img').each(function(){
+  var imgClass = (this.width/this.height > 1) ? 'wide' : 'tall';
+  $(this).addClass(imgClass);
+ })
+})
+
+$(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+            $(".header").addClass(".headerActive");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $(".header").removeClass(".headerActive");
+        }
+    });
+});
+
+	</script>
+
+</body>
+
+</html>
